@@ -17,6 +17,14 @@ The versions used while writing the code are mentioned below.
 
 ## Motivation
 
+A bank is having a problem identifying the customers who might be unhappy with the credit card services. The project goal is the build a supervised machine learning model to predict any customer who might be closing their account.
+
+The data analysis tries to answer the following questions from the dataset, which can help the bank to focus of customers who they can easily persuade to change their decision of leaving.
+
+* How many customers are highly educated?
+* Do highly educated people have high income?
+* Is spending trend consistent with Income.
+* Is age a factore for more credit card usage?
 
 ## File Descriptions and Usage
 
@@ -24,6 +32,6 @@ The versions used while writing the code are mentioned below.
 
 - Credit Card Customer.ipynb: Contains the full code for data analysis and prediction.
 
-Clone the repository to your machine, in [colab] go to File -> Open notebook -> Upload. Select the ipynb file.
+Clone the repository to your machine, in [colab](https://colab.research.google.com/) go to File -> Open notebook -> Upload. Select the ipynb file.
 
-Once the notebook opens, create a **sample_data** folder in your Files section of notebook. Upload the BankChurners.csv file to sample_data folder.
+Once the notebook opens, create a **sample_data** folder in the Files section of notebook. Upload the BankChurners.csv file to sample_data folder.
